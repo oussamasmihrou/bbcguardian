@@ -205,3 +205,5 @@ def generate_graphs(n):
 
 if __name__ == "__main__":
     app.run_server(debug=True)
+    app = dash.Dash(__name__)
+    server = app.server
