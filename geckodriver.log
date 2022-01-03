@@ -1556,3 +1556,25 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 1641172786037	Marionette	INFO	Stopped listening on port 61046
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 [Parent 47380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1641230100011	geckodriver	INFO	Listening on 127.0.0.1:54841
+1641230103026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54842" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileXLw63Z"
+1641230104211	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileXLw63Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54842/devtools/browser/8b38224a-4935-4836-8a73-cdbbd19a5e4a
+1641230108221	Marionette	INFO	Listening on port 54852
+1641230108288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
+1641230117943	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 3514 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1641230643668	geckodriver	INFO	Listening on 127.0.0.1:60405
+1641230646677	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60406" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilegY7CW3"
+1641230647253	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilegY7CW3\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60406/devtools/browser/f95f5f62-595e-4507-bb8a-f2053c8dd2b2
+1641230649282	Marionette	INFO	Listening on port 60417
+1641230649304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 7591 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
