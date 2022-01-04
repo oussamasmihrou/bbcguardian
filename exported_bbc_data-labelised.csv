@@ -1,5 +1,5 @@
-,id,cathegory,author,title,Publish date,url,article_content,images descriptions,sentiment
-0,0,COP26,Louise Cullen,Climate change: Will 2022 be the year NI gets legislation?,2022-01-02,https://www.bbc.com/news/uk-northern-ireland-59742532,"Northern Ireland began 2021 without climate change legislation - and is ending the year with two bills in a race on the path to becoming law.  
+,Unnamed: 0,id,cathegory,author,title,Publish date,url,article_content,images descriptions,sentiment,Named entities
+0,0,0,COP26,Louise Cullen,Climate change: Will 2022 be the year NI gets legislation?,2022-01-02,https://www.bbc.com/news/uk-northern-ireland-59742532,"Northern Ireland began 2021 without climate change legislation - and is ending the year with two bills in a race on the path to becoming law.  
 Each have differing targets, with Climate Change Bill No. 1 proposing to reach Net Zero by 2045. 
 The private member's bill from Green Party leader Clare Bailey is viewed as more ambitious than No. 2.
 The second one, brought by the Agriculture and Environment Minister Edwin Poots, sets a target of an 82% reduction in emissions by 2050 - a figure aligned with what the Climate Change Committee says is possible given our reliance on agriculture. 
@@ -25,8 +25,23 @@ This year will be another year of environmental focus.
 The proposals from COP26, if fully delivered on, only reduce global warming to just under 2C, which could still wipe some island nations and low-lying coastal areas off the map.  
 Northern Ireland's contribution to reducing that impact has yet to be decided, but there will be a contribution, with changes and consequences for us all.  
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Waterworks Park', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-1,1,COP26,BBC News,EU plans to label gas and nuclear energy 'green' prompt row,2022-01-02,https://www.bbc.com/news/world-europe-59850093,"The European Commission has proposed plans to label some gas and nuclear power as green, prompting criticism from Germany. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Waterworks Park', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [Clare Bailey, Edwin Poots, Brexit, Taken, Waterworks, Antrim, Ruby Wax, Donald Trump], 'countries': 0         (Northern, Ireland)
+16                 (Stormont)
+25                     (Â£68)
+28                       (UK)
+30        (Northern, Ireland)
+33                  (Belfast)
+35                       (UK)
+37           (Great, Britain)
+38        (Northern, Ireland)
+40                  (Belfast)
+54    (Northern, Ireland, 's)
+Name: Entities, dtype: object, 'organisations': 5                           (Green, Party)
+9     (the, Agriculture, and, Environment)
+13       (the, Climate, Change, Committee)
+34                        (Million, Trees)
+Name: Entities, dtype: object}"
+1,1,1,COP26,BBC News,EU plans to label gas and nuclear energy 'green' prompt row,2022-01-02,https://www.bbc.com/news/world-europe-59850093,"The European Commission has proposed plans to label some gas and nuclear power as green, prompting criticism from Germany. 
 The proposal argues that gas and nuclear are key to helping transition to cleaner power. 
 But Germany's environment minister called the plan ""absolutely wrong"".
 It comes months after countries pledged to keep temperature rises within 1.5C at the COP26 climate summit. 
@@ -39,8 +54,18 @@ The move has been criticised by Germany, which is in the process of phasing out 
 German Environment Minister Steffi Lemke described the proposal as ""wrong"", adding that nuclear energy could lead to environmental disasters and large amounts of nuclear waste. 
 Economy and Climate Protection Minister Robert Habeck called the plan ""greenwashing"", saying it ""waters down the good label for sustainability.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['A nuclear power plant in France', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-2,2,COP26,BBC News,Denmark to make domestic flights fossil fuel free by 2030,2022-01-02,https://www.bbc.com/news/world-europe-59849898,"Denmark's government has announced a goal to make domestic flights fossil fuel free by 2030. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['A nuclear power plant in France', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Steffi Lemke, Robert Habeck, Ruby Wax, Donald Trump], 'countries': 1     (Germany)
+2     (Germany)
+11     (France)
+15     (France)
+18    (Germany)
+Name: Entities, dtype: object, 'organisations': 0    (The, European, Commission)
+5                        (Union)
+6                   (Commission)
+7              (Deutsche, Welle)
+9                           (EU)
+Name: Entities, dtype: object}"
+2,2,2,COP26,BBC News,Denmark to make domestic flights fossil fuel free by 2030,2022-01-02,https://www.bbc.com/news/world-europe-59849898,"Denmark's government has announced a goal to make domestic flights fossil fuel free by 2030. 
 In her New Year's address, Prime Minister Mette Frederiksen said she wanted to ""make flying green"". 
 However she acknowledged that the solutions to reach her target were not yet in place.
 Denmark is aiming for a 70% cut in overall carbon emissions by 2030, compared to 1990 levels.
@@ -55,13 +80,28 @@ Earlier this year, the government there announced plans to introduce increased a
 Meanwhile France is moving to ban domestic flights where the same journey could be made by train in under two-and-a-half hours. 
 The measures could affect travel between Paris and cities including Nantes, Lyon and Bordeaux. 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['SAS airlines planes', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-3,3,General,BBC News,Title of article,2022-01-02,https://www.bbc.com/news/world-europe-59755739,"A group of young men are using their gymnastic abilities to reduce the impact of light pollution in their hometown. Light pollution is the presence of artificial light in the night environment. More than 80% of the worldâs population experiences light-polluted night skies so the group decided to combine what they love doing with an environmental fight. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['SAS airlines planes', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Mette Frederiksen, Ms Frederiksen, Ruby Wax, Donald Trump], 'countries': 0     (Denmark)
+4     (Denmark)
+9     (Denmark)
+13    (Denmark)
+15     (Sweden)
+19     (France)
+21      (Paris)
+Name: Entities, dtype: object, 'organisations': 11                  (Airbus)
+22    (Nantes, ,, Lyon, and)
+23                (Bordeaux)
+Name: Entities, dtype: object}"
+3,3,3,General,BBC News,Title of article,2022-01-02,https://www.bbc.com/news/world-europe-59755739,"A group of young men are using their gymnastic abilities to reduce the impact of light pollution in their hometown. Light pollution is the presence of artificial light in the night environment. More than 80% of the worldâs population experiences light-polluted night skies so the group decided to combine what they love doing with an environmental fight. 
 Video produced by Daniel South and Jasmin Souesi
-(Photo: Man jumping between buildings in France. Credit: Wizzy Gang)","['Raven Cruz in Manila, Philippines', '', 'Luke and his daughter', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Coffin in front of South Africa flags']",3
-4,4,General,BBC News,Title of article,2022-01-01,https://www.bbc.com/news/world-us-canada-59845176,"Jennifer Gardner and her family are among tens of thousands of people who have been evacuated as wildfires spread through the US state of Colorado.
-She told the BBC they don't know if their home has been spared, but said some families in her neighbourhood have ""lost everything.""","['Wildfire razes a Colorado house', 'Overlooking the mountains', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-5,5,Our Planet Now,Justin Rowlatt,California's fires threaten to ravage mighty sequoia forests,2022-01-01,https://www.bbc.com/news/science-environment-59842464,"California's giant sequoias are symbols of permanence - with some living for thousands of years. But the fierce wildfires ravaging the state threaten even these mighty trees, which are among the longest-lived organisms on Earth.
+(Photo: Man jumping between buildings in France. Credit: Wizzy Gang)","['Raven Cruz in Manila, Philippines', '', 'Luke and his daughter', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Coffin in front of South Africa flags']",3,"{'person': [Daniel South, Jasmin Souesi, Wizzy Gang], 'countries': 3    (France)
+Name: Entities, dtype: object, 'organisations': 4    (Credit)
+Name: Entities, dtype: object}"
+4,4,4,General,BBC News,Title of article,2022-01-01,https://www.bbc.com/news/world-us-canada-59845176,"Jennifer Gardner and her family are among tens of thousands of people who have been evacuated as wildfires spread through the US state of Colorado.
+She told the BBC they don't know if their home has been spared, but said some families in her neighbourhood have ""lost everything.""","['Wildfire razes a Colorado house', 'Overlooking the mountains', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [Jennifer Gardner], 'countries': 2          (US)
+3    (Colorado)
+Name: Entities, dtype: object, 'organisations': 4    (BBC)
+Name: Entities, dtype: object}"
+5,5,5,Our Planet Now,Justin Rowlatt,California's fires threaten to ravage mighty sequoia forests,2022-01-01,https://www.bbc.com/news/science-environment-59842464,"California's giant sequoias are symbols of permanence - with some living for thousands of years. But the fierce wildfires ravaging the state threaten even these mighty trees, which are among the longest-lived organisms on Earth.
 There is something primeval about giant sequoias. Their weird, broccoli-like branches wouldn't seem out of place with a long-necked dinosaur plodding by. 
 And they are impossibly big: 30 or 40 people would have to link hands to hug the largest ones. The tallest trees are 90m (295ft) high. That's like a 30-storey tower block.
 ""They make you feel deep time"", sighs Christy Bingham, as she looks up at the biggest tree in the world - known as the General Sherman. 
@@ -89,8 +129,19 @@ The resilience of the sequoias should inspire us, says Christy: ""It is telling 
 Follow Justin on Twitter.
 Listen to more episodes of From Our Own Correspondent here
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Dixie fire devastation in Greenville', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-6,6,Climate change,BBC News,Colorado wildfires: Tens of thousands evacuated as blazes spread,2021-12-31,https://www.bbc.com/news/world-us-canada-59834897,"Tens of thousands of people have been evacuated and nearly 1,000 homes have been destroyed as wildfires spread through the US state of Colorado.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Dixie fire devastation in Greenville', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [Christy Bingham, Christy, Christy, Christy, Nichoel Farris, Nichoel, Christy, Christy, Ruby Wax, Donald Trump], 'countries': 0     (California)
+13    (California)
+14    (California)
+21    (California)
+23    (Greenville)
+33    (Greenville)
+Name: Entities, dtype: object, 'organisations': 9     (the, General, Sherman)
+11                   (Sierra)
+31                  (Nichoel)
+34                  (Christy)
+38                   (Justin)
+Name: Entities, dtype: object}"
+6,6,6,Climate change,BBC News,Colorado wildfires: Tens of thousands evacuated as blazes spread,2021-12-31,https://www.bbc.com/news/world-us-canada-59834897,"Tens of thousands of people have been evacuated and nearly 1,000 homes have been destroyed as wildfires spread through the US state of Colorado.
 The fast-moving blazes are burning in Boulder County, north of Denver. Governor Jared Polis called it a ""New Year's Eve miracle"" that no deaths had been reported.
 Some 30,000 people in the towns of Louisville and Superior were told to leave their homes on Thursday.
 A state of emergency has been declared.
@@ -115,8 +166,24 @@ How have you been affected by the wildfires? Tell us by emailing: haveyoursay@bb
 Please include a contact number if you are willing to speak to a BBC journalist. You can also get in touch in the following ways:
 If you are reading this page and can't see the form you will need to visit the mobile version of the BBC website to submit your question or comment or you can email us at HaveYourSay@bbc.co.uk. Please include your name, age and location with any submission. 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","[""Banner saying 'Get in touch'"", 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-7,7,Climate change,BBC News,Scotland's 100% renewables electricity target narrowly missed,2021-12-31,https://www.bbc.com/news/uk-scotland-59837782,"Scotland narrowly missed a key environment target for the equivalent of 100% of electricity used in 2020 to be generated from renewable sources.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","[""Banner saying 'Get in touch'"", 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Jared Polis, Gov Polis, Joe Biden, Joe Pelle, Snow, Gov Polis, Patrick Kilbride, Ruby Wax, Donald Trump], 'countries': 2                  (US)
+3            (Colorado)
+4     (Boulder, County)
+5              (Denver)
+9          (Louisville)
+17           (Colorado)
+20       (Middle, Fork)
+46           (Colorado)
+49                 (uk)
+Name: Entities, dtype: object, 'organisations': 19         (the, Marshall, Fire)
+29                    (Superior)
+30    (Boulder, County, Sheriff)
+41              (Sheriff, Pelle)
+45           (The, Denver, Post)
+50                         (BBC)
+51                         (BBC)
+Name: Entities, dtype: object}"
+7,7,7,Climate change,BBC News,Scotland's 100% renewables electricity target narrowly missed,2021-12-31,https://www.bbc.com/news/uk-scotland-59837782,"Scotland narrowly missed a key environment target for the equivalent of 100% of electricity used in 2020 to be generated from renewable sources.
 Official figures show gross consumption from renewables - minus net exports - was 98.6%
 The full 2020 total was up from 97.4% in the early part of the year. 
 It comes after the Scottish government missed a target for 11% of non-electrical heat to be generated by renewables in 2020.
@@ -135,10 +202,21 @@ Michael Matheson said he was ""proud of the progress Scotland has made over the 
 The energy secretary added: ""This statement shows we are continuing to make good progress with the equivalent of 98.6% of gross electricity consumption being from renewable sources in 2020, which is up from 89.8% in 2019.
 ""Whilst we do have many challenges ahead of us if we are going to meet our ambitious targets, we have laid the groundwork in 2021 for Scotland to take important leaps forward towards net zero.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['wind turbines', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-8,8,General,BBC News,Title of article,2021-12-31,https://www.bbc.com/news/world-us-canada-59837697,"Wildfires have devastated parts of Boulder County in the US state of Colorado. Tens of thousands of people were evacuated from their homes on Thursday as the fire spread, destroying hundreds of homes and businesses.
-Officials have said that a mixture of dry conditions and very high winds have contributed to the destruction caused by the fire and that fatalities are likely.","['Sofia', 'Wildlife officer Scott Murdoch', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-9,10,COP26,Martin Webber,Business Review of 2021: Climate change and Covid,2021-12-30,https://www.bbc.com/news/business-59730492,"Over the past year governments all over the world told businesses to radically step up their strategies for going green and shifting away from fossil fuels. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['wind turbines', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Michael Matheson, Michael Matheson, Ruby Wax, Donald Trump], 'countries': 0     (Scotland)
+14    (Scotland)
+20    (Scotland)
+28    (Scotland)
+33    (Scotland)
+39    (Scotland)
+46    (Scotland)
+Name: Entities, dtype: object, 'organisations': 27    (the, Energy, Statistics, for)
+Name: Entities, dtype: object}"
+8,8,8,General,BBC News,Title of article,2021-12-31,https://www.bbc.com/news/world-us-canada-59837697,"Wildfires have devastated parts of Boulder County in the US state of Colorado. Tens of thousands of people were evacuated from their homes on Thursday as the fire spread, destroying hundreds of homes and businesses.
+Officials have said that a mixture of dry conditions and very high winds have contributed to the destruction caused by the fire and that fatalities are likely.","['Sofia', 'Wildlife officer Scott Murdoch', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [], 'countries': 0    (Boulder, County)
+1                 (US)
+2           (Colorado)
+Name: Entities, dtype: object, 'organisations': Series([], Name: Entities, dtype: object)}"
+9,9,10,COP26,Martin Webber,Business Review of 2021: Climate change and Covid,2021-12-30,https://www.bbc.com/news/business-59730492,"Over the past year governments all over the world told businesses to radically step up their strategies for going green and shifting away from fossil fuels. 
 The Glasgow COP 26 Climate Conference in November saw the host, UK Prime Minister Boris Johnson, setting out why humanity had to ""act now"".
 Mr Johnson declared: ""If we don't get serious about climate change today, it will be too late for our children to do so tomorrow"".  
 After the two weeks of talking in Glasgow, a draft deal pledging to ""phase out"" use of the dirtiest fuel, coal, was rejected by the biggest coal users, China and India.
@@ -192,8 +270,52 @@ The owner of the Aroma speciality coffee shop in Bologna in Italy, Cristina Caro
 Cristina's enthusiasm for the future of her cafÃ© remains undimmed, telling me: ""Activities are starting again, the situation looks really better, it's a kind of renaissance after this bad period.""
 Catch up with Martin Webber's Business Review of 2021 on World Business Report, BBC World Service, or download the latest podcast.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['2px presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-10,11,Climate change,Geeta Pandey,Why I switched to eating grandma's food,2021-12-30,https://www.bbc.com/news/world-asia-india-59650408,"During my childhood visits to my ancestral home in rural Uttar Pradesh in northern India, I would often find my grandmother eating roti - flat bread - made with pearl millets or sorghum. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['2px presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Boris Johnson, Johnson, Andrew Forrest, Scott Morrison, Forrest, Morrison, Scott Morrison, Haydar Shaiwandi, Tariq Fancy, Tim Gould, Glasgow, Irwin Stelzer, Irwin Stelzer, Covid, Ken Rogoff, Covid, Biden, Covid, Cristina Caroli, Cristina, Martin Webber's, Ruby Wax, Donald Trump], 'countries': 3                (UK)
+9           (Glasgow)
+10            (China)
+11            (India)
+27        (Australia)
+30               (US)
+31            (Japan)
+33               (UK)
+34            (China)
+35           (Russia)
+36    (Saudi, Arabia)
+38            (India)
+40          (Denmark)
+42          (Jutland)
+49        (Blackrock)
+60               (US)
+64            (China)
+66               (US)
+72               (US)
+79               (US)
+92          (Bologna)
+93            (Italy)
+Name: Entities, dtype: object, 'organisations': 14               (Fortescue, Metals, Group)
+15                                    (BBC)
+24                                  (ScoMo)
+32                                     (EU)
+41                                 (Brande)
+43                                  (DRIVR)
+45                                  (DRIVR)
+51                              (Blackrock)
+52     (The, International, Energy, Agency)
+54                                    (IEA)
+55                                    (IEA)
+61                 (the, Hudson, Institute)
+63                                     (EU)
+65                                     (EU)
+77                                    (IMF)
+82                                  (Tesla)
+84                                   (Meta)
+86                               (Facebook)
+87                              (Instagram)
+103                      (Business, Review)
+105               (World, Business, Report)
+106                   (BBC, World, Service)
+Name: Entities, dtype: object}"
+10,10,11,Climate change,Geeta Pandey,Why I switched to eating grandma's food,2021-12-30,https://www.bbc.com/news/world-asia-india-59650408,"During my childhood visits to my ancestral home in rural Uttar Pradesh in northern India, I would often find my grandmother eating roti - flat bread - made with pearl millets or sorghum. 
 She would mix the flour with water, take a chunk of the dough and beat it between her palms to make a big flat disc and then cook it on the wood-fired clay oven.
 If she offered it to me, I'd turn my nose up. I couldn't comprehend why she'd choose them over thinner, tastier, easier-to-eat wheat rotis.
 But a few years back, I switched to the food my grandma ate. 
@@ -225,15 +347,36 @@ Talking to me on the phone from her village, she lists the ingredients and spice
 Aila doesn't fully understand the interest in the humble grain that's been her staple all her life, but she tells me she's happy that it's going places.
 This video can not be played
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-11,12,General,BBC News,Title of article,2021-12-30,https://www.bbc.com/news/science-environment-59776108,"A group of children in Portugal are using human rights law to force European politicians to tackle climate change. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Jacqueline Hughes, Narendra Modi, Mr Tonapi, Ruby Wax, Donald Trump], 'countries': 1         (India)
+3          (roti)
+7         (India)
+12        (Delhi)
+17        (India)
+31        (India)
+36        (India)
+43        (India)
+45        (India)
+56    (Telangana)
+58     (Asifabad)
+Name: Entities, dtype: object, 'organisations': 0                                             (Uttar, Pradesh)
+6      (Icrisat, (, International, Crops, Research, Institute)
+11                                      (the, United, Nations)
+16                                                (Dr, Hughes)
+26    (Indian, Institute, of, Millet, Research, Vilas, Tonapi)
+42                                                (Dr, Tonapi)
+59                                                   (Icrisat)
+Name: Entities, dtype: object}"
+11,11,12,General,BBC News,Title of article,2021-12-30,https://www.bbc.com/news/science-environment-59776108,"A group of children in Portugal are using human rights law to force European politicians to tackle climate change. 
 After seeing the damage caused by wildfires in their home country of Portugal, AndrÃ© Oliviera, his sister Sofia and their friends are determined to make sure that leaders who pledged to reduce harmful emissions are forced to act.
 Filmed and edited by Maarten Willems.
-Produced by Kate Vandy.","['', 'activists', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-12,13,General,BBC News,Title of article,2021-12-30,https://www.bbc.com/news/world-59736375,"Misinformation about the Covid pandemic and climate change is slowing an effective collective response to these emergencies. 
+Produced by Kate Vandy.","['', 'activists', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [Sofia, Maarten Willems, Kate Vandy], 'countries': 0    (Portugal)
+2    (Portugal)
+Name: Entities, dtype: object, 'organisations': Series([], Name: Entities, dtype: object)}"
+12,12,13,General,BBC News,Title of article,2021-12-30,https://www.bbc.com/news/world-59736375,"Misinformation about the Covid pandemic and climate change is slowing an effective collective response to these emergencies. 
 BBC Monitoringâs experts Shayan Sardarizadeh and Kayleen Devlin explain the misinformation trends they have seen in 2021 and the effects they have had on lives around the world. 
-Video produced by Suniti Singh","['Sebastian (right) and his mum on stage at a rally (left)', 'Fake news generators', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3
-13,14,COP26,Matt McGrath,Climate change: Hurricanes to expand into more populated regions,2021-12-29,https://www.bbc.com/news/science-environment-59775105,"Climate change will expand the range of tropical cyclones, making millions more people vulnerable to these devastating storms, a new study says.
+Video produced by Suniti Singh","['Sebastian (right) and his mum on stage at a rally (left)', 'Fake news generators', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3,"{'person': [Covid, Shayan Sardarizadeh, Kayleen Devlin, Suniti Singh], 'countries': Series([], Name: Entities, dtype: object), 'organisations': 1    (BBC)
+Name: Entities, dtype: object}"
+13,13,14,COP26,Matt McGrath,Climate change: Hurricanes to expand into more populated regions,2021-12-29,https://www.bbc.com/news/science-environment-59775105,"Climate change will expand the range of tropical cyclones, making millions more people vulnerable to these devastating storms, a new study says.
 At present, these cyclones - or hurricanes as they are also known - are mainly confined to the tropical regions north and south of the equator.
 But researchers say that rising temperatures will allow these weather events to form in the mid-latitudes. 
 This area includes cities such as New York, Beijing, Boston and Tokyo.
@@ -263,8 +406,19 @@ Certainly, the authors argue that this course is not set in stone and that drama
 ""By end of this century, the difference in that gradient between a high emission scenario and a low emission scenario is dramatic. That can be very significant in terms of how these hurricanes play out.""
 Follow Matt on Twitter @mattmcgrathbbc.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Ida', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-14,15,Climate change,Jack Hunter,Alaska 'Icemageddon' warning follows heat record,2021-12-29,https://www.bbc.com/news/world-us-canada-59820999,"The coldest US state of Alaska has recorded its hottest-ever December day, amid an unusual winter warm spell.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Ida', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Dr Joshua Studholme, Dr Studholme, Dr Studholme, Gan Zhang, Dr Zhang, Dr Studholme, Follow Matt, Twitter @mattmcgrathbbc, Ruby Wax, Donald Trump], 'countries': 2     (New, York)
+3       (Beijing)
+4        (Boston)
+5         (Tokyo)
+9      (Portugal)
+13     (Portugal)
+Name: Entities, dtype: object, 'organisations': 12                                      (Yale, University)
+17    (the, Intergovernmental, Panel, on, Climate, Change)
+20                                                  (IPCC)
+24                                 (Princeton, University)
+25                                                  (NOAA)
+Name: Entities, dtype: object}"
+14,14,15,Climate change,Jack Hunter,Alaska 'Icemageddon' warning follows heat record,2021-12-29,https://www.bbc.com/news/world-us-canada-59820999,"The coldest US state of Alaska has recorded its hottest-ever December day, amid an unusual winter warm spell.
 Temperatures soared to a record 19.4C (67F) on the island of Kodiak on Sunday - almost seven degrees warmer than the state's previous high.
 But elsewhere in Alaska temperatures have been plunging to record lows.
 In the south-eastern town of Ketchikan, temperatures dropped to -18C (-0.4F) on 25 December - one of the town's coldest Christmas Days in the past century.
@@ -283,8 +437,25 @@ But warm, soggy episodes are likely to be more common in the future, Mr Thoman p
 ""2021 really seems to be the year these extreme precipitation events have really come to the fore,"" he told the BBC.
 This video can not be played
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['2px presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-15,16,Climate change,BBC News,Insulate Britain protests cost police more than Â£4m,2021-12-29,https://www.bbc.com/news/uk-england-london-59808873,"Policing Insulate Britain's road-blocking protests over three months cost more than Â£4m, new figures have revealed.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['2px presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Rick Thoman, Mr Thoman, Mr Thoman, Ruby Wax, Donald Trump], 'countries': 0            (US)
+1        (Alaska)
+4        (Kodiak)
+6        (Alaska)
+7     (Ketchikan)
+14       (Hawaii)
+15       (Alaska)
+18          (Ice)
+36    (Fairbanks)
+Name: Entities, dtype: object, 'organisations': 8                                                                    (-0,4F)
+13                                                             (Icemageddon)
+17    (the, Alaska, Department, of, Transportation, and, Public, Facilities)
+24              (the, Alaska, Center, for, Climate, Assessment, and, Policy)
+25                                                                     (BBC)
+33                                                         (Delta, Junction)
+37                                                                  (Thoman)
+43                                                                     (BBC)
+Name: Entities, dtype: object}"
+15,15,16,Climate change,BBC News,Insulate Britain protests cost police more than Â£4m,2021-12-29,https://www.bbc.com/news/uk-england-london-59808873,"Policing Insulate Britain's road-blocking protests over three months cost more than Â£4m, new figures have revealed.
 The Met Police spent Â£4m on protests between 13 September and 20 November, according to figures released to the PA news agency under a Freedom of Information request.
 Four other forces spent more than Â£300,000 combined.
 Transport Secretary Grant Shapps said he was ""appalled"" by the costs.
@@ -308,8 +479,37 @@ She said they resorted to blocking roads after failing to get attention when the
 ""Our government has proved time and time again they're not doing what is necessary for our children, for the future. So how can we stop?""
 Information about BBC links to other news sites
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Protest Vauxhall Bridge on 20 November 2020', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-16,17,COP26,Matt McGrath,Climate change: Storm clouds gather after COP26,2021-12-29,https://www.bbc.com/news/science-environment-59744522,"Is the progress that was made at the COP26 Glasgow climate summit already in jeopardy because of challenges in the year ahead?
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Protest Vauxhall Bridge on 20 November 2020', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Grant Shapps, Insulate Britain, Hertfordshire, Insulate Britain, Ken Marsh, Courts Bill, Insulate, Tracey Mallaghan, Ruby Wax, Donald Trump], 'countries': 0       (Insulate)
+1        (Britain)
+9             (UK)
+22      (Insulate)
+23       (Britain)
+25            (UK)
+26    (Manchester)
+27    (Birmingham)
+28        (London)
+30          (Kent)
+34            (UK)
+39       (England)
+42       (Britain)
+45        (Police)
+49       (Britain)
+Name: Entities, dtype: object, 'organisations': 3                                    (Â£4)
+5                       (PA, news, agency)
+12                                   (Met)
+16                        (Surrey, Police)
+17    (City, of, London, Police, Â£44,000)
+18           (Greater, Manchester, Police)
+24                                   (M25)
+31                                (Shapps)
+37          (the, Met, Police, Federation)
+38                           (High, Court)
+40                                   (M25)
+44                                (Shapps)
+46                  (Crime, ,, Sentencing)
+51                                   (BBC)
+Name: Entities, dtype: object}"
+16,16,17,COP26,Matt McGrath,Climate change: Storm clouds gather after COP26,2021-12-29,https://www.bbc.com/news/science-environment-59744522,"Is the progress that was made at the COP26 Glasgow climate summit already in jeopardy because of challenges in the year ahead?
 2021 was a momentous year for climate change. 
 As well as a host of extreme, destructive events influenced by rising temperatures, the past 12 months have seen unprecedented political engagement on the issue, culminating in the COP26 summit in Glasgow in November.
 Progress was undoubtedly made and the overall thrust of the meeting was towards more rapid action on a whole host of measures to curb emissions.
@@ -351,8 +551,57 @@ Certainly the COP26 president says he's determined to push ahead and that the UK
 ""I believe we will reach a net zero world, and the UK is leading the way through our own actions such as rapidly expanding our renewables sector and working to eliminate the use of coal from our electricity generation in 2024, the question is whether that will be fast enough to avoid the worst effects of climate change."" 
 Follow Matt on Twitter.. 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['floods', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-17,18,Climate change,BBC News,More young drivers choosing to learn on automatic cars,2021-12-28,https://www.bbc.com/news/newsbeat-59803133,"The number of young drivers choosing to take their tests in automatic cars has tripled since 2008 according to the DVSA.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['floods', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Glasgow, Biden, Biden, Dr Joanna Depledge, Biden, Glasgow, Biden, Li Shuo, Glasgow, James Shaw, Alok Sharma, Glasgow, Glasgow, Covid, Prof Roberts, Glasgow, Alok Sharma, Follow Matt, Ruby Wax, Donald Trump], 'countries': 5                         (Glasgow)
+8                              (US)
+11                             (US)
+18                             (US)
+20                          (China)
+27                        (Beijing)
+31                          (Paris)
+34                          (Egypt)
+35    (the, United, Arab, Emirates)
+37                  (Rhode, Island)
+38                             (US)
+42                          (Egypt)
+44                      (Australia)
+45                   (New, Zealand)
+46               (New, Zealand, 's)
+48                          (India)
+49                          (China)
+50                         (Russia)
+51                         (Brazil)
+53                             (UK)
+55                             (US)
+56                        (Germany)
+57                         (France)
+59                  (South, Africa)
+61                          (India)
+62                      (Indonesia)
+65                             (UK)
+67                          (Egypt)
+72                             (UK)
+78                        (Germany)
+79                             (G7)
+82                        (Glasgow)
+84                             (UK)
+85                         (Russia)
+86                        (Ukraine)
+87                          (China)
+89                             (US)
+92                             (UK)
+96                             (UK)
+Name: Entities, dtype: object, 'organisations': 10             (Congress)
+12    (the, White, House)
+14              (Glasgow)
+17             (Congress)
+29            (BBC, News)
+36    (Brown, University)
+52              (Glasgow)
+54                   (EU)
+71               (Sharma)
+75            (BBC, News)
+Name: Entities, dtype: object}"
+17,17,18,Climate change,BBC News,More young drivers choosing to learn on automatic cars,2021-12-28,https://www.bbc.com/news/newsbeat-59803133,"The number of young drivers choosing to take their tests in automatic cars has tripled since 2008 according to the DVSA.
 Only 3.8% of tests were taken in an automatic back then, but now it's closer to 14%. 
 President of the AA Edmund King says it's because young people want to drive electric cars, which are automatic.
 They say they'll be introducing electric car driving lessons in 2022.
@@ -377,8 +626,17 @@ Edmund King  told The Telegraph that ""there is still a reluctance"" for young p
 Follow Newsbeat on Instagram, Facebook, Twitter and YouTube.
 Listen to Newsbeat live at 12:45 and 17:45 weekdays - or listen back here.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Newsbeat', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-18,19,Climate change,Sarbas Nazari,Crocodiles turn on humans amid Iran water crisis,2021-12-28,https://www.bbc.com/news/world-middle-east-59571711,"Lying on the floor of his modest home, Siahouk was in excruciating pain from the injury to his right hand, the result of a nightmarish encounter. Just two days earlier, on a scorchingly hot August afternoon, the frail 70-year-old shepherd had gone to fetch water from a pond when he was pounced on by a gando, the local name for a mugger crocodile in Iran's Baluchistan region.  
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Newsbeat', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Gordon Witherspoon, Driver, Tom Webster, Tom, Tom, Edmund King, Ruby Wax, Donald Trump], 'countries': 11    (UK)
+13    (UK)
+Name: Entities, dtype: object, 'organisations': 1                           (DVSA)
+7                  (Auto, Express)
+10    (Vehicle, Standards, Agency)
+18                      (Newsbeat)
+22                      (Â£32,000)
+25                      (Facebook)
+27                       (YouTube)
+Name: Entities, dtype: object}"
+18,18,19,Climate change,Sarbas Nazari,Crocodiles turn on humans amid Iran water crisis,2021-12-28,https://www.bbc.com/news/world-middle-east-59571711,"Lying on the floor of his modest home, Siahouk was in excruciating pain from the injury to his right hand, the result of a nightmarish encounter. Just two days earlier, on a scorchingly hot August afternoon, the frail 70-year-old shepherd had gone to fetch water from a pond when he was pounced on by a gando, the local name for a mugger crocodile in Iran's Baluchistan region.  
 ""I didn't see it coming,"" he remembers of the traumatic event two years ago, with the shock and disbelief still vivid in his eyes.  
 Siahouk was only able to escape once he ""managed to squeeze the plastic [water] bottle in between its jaws"", he says, reliving the moment as he rubs his bony face with his wrinkled left hand.  
 The blood loss left Siahouk unconscious for half an hour. He was only found after his flock of sheep returned unaccompanied to his tiny village of Dombak.
@@ -404,8 +662,31 @@ Still, to him and a countless more Baluchis, unemployment is far less of a chall
 ""We don't expect any government handout. We don't expect them to put jobs on a platter for us,"" says Noushervan. ""We Baluchis can survive on loaves of bread in a desert. But water is the essence of life. We won't survive without it, and who does?""
 This video can not be played
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-19,20,Climate change,Sarah Dickins,Climate change: Why do new homes not have solar panels?,2021-12-27,https://www.bbc.com/news/uk-wales-59668836,"With energy bills soaring and the climate in crisis, you might ask why don't all new homes have solar panels to generate clean electricity for free?
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Siahouk, Siahouk, Siahouk, Alireza, River Bahu-Kalat, Dombak, Osman, Osman, Noushervan, Osman, Noushervan, Ruby Wax, Donald Trump], 'countries': 5          (Iran)
+20         (Hawa)
+22         (Iran)
+23         (Iran)
+26         (Iran)
+29         (Iran)
+33         (Iran)
+40         (Iran)
+42    (Khuzestan)
+45      (Isfahan)
+47         (Iran)
+57     (Pakistan)
+59         (Iran)
+Name: Entities, dtype: object, 'organisations': 9                                                      (Siahouk)
+11                                                      (Dombak)
+13                                                     (Baluchi)
+25    (the, International, Union, for, Conservation, of, Nature)
+30                                 (Department, of, Environment)
+34                                              (Bahu, -, Kalat)
+36                                             (Malek, -, Dinar)
+38                                             (Malek, -, Dinar)
+50                                    (Shir, -, Mohammad, Bazar)
+52                                               (Malek, -, Naz)
+Name: Entities, dtype: object}"
+19,19,20,Climate change,Sarah Dickins,Climate change: Why do new homes not have solar panels?,2021-12-27,https://www.bbc.com/news/uk-wales-59668836,"With energy bills soaring and the climate in crisis, you might ask why don't all new homes have solar panels to generate clean electricity for free?
 Gas and electricity bills have risen by about Â£400 a year on average and Ofgem, the UK's energy regulator, has warned costs will spike further next year.
 Ministers in Wales plan to force house builders to cut the carbon footprint of new homes by more than a third in 2022.
 But developers want more government help to meet new building standards.
@@ -446,11 +727,35 @@ Some housing associations have already started fitting solar panels to new and e
 ""Now when architects look at a brand new site, we think 'how easy is it to walk to?'"" said Elfed Roberts, of Pobl Housing's latest development at Tonyrefail, Rhondda Cynon Taf.
 ""Then we analyse where the sun is, where the great views are and where does the wind come from, that is a new way of working in new-home construction.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['New house', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-20,21,General,BBC News,Title of article,2021-12-27,https://www.bbc.com/news/world-latin-america-59801025,"After weeks of heavy rain overwhelming already swollen rivers, two dams in Brazil's Bahia state burst and flooded surrounding towns.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['New house', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [Ofgem, Stephen Murray, Gareth Jones, Carbon Zero Renewables, Mr Jones, Mr Jones, Julie James, Ms James, Ifan Glyn, Elfed Roberts, Ruby Wax, Donald Trump], 'countries': 1                   (UK)
+3                (Wales)
+10    (Moneysupermarket)
+13                  (UK)
+16                  (UK)
+18               (Wales)
+19             (England)
+29           (St, Asaph)
+30        (Denbighshire)
+34               (Wales)
+38               (Wales)
+48                  (UK)
+52               (Wales)
+56               (Wales)
+61          (Tonyrefail)
+Name: Entities, dtype: object, 'organisations': 42                                              (BBC)
+44                                            (Wales)
+53    (the, Federation, of, Master, Builders, (, FMB)
+58                                       (FMB, Wales)
+60                                (Pobl, Housing, 's)
+Name: Entities, dtype: object}"
+20,20,21,General,BBC News,Title of article,2021-12-27,https://www.bbc.com/news/world-latin-america-59801025,"After weeks of heavy rain overwhelming already swollen rivers, two dams in Brazil's Bahia state burst and flooded surrounding towns.
  In the town of Itabuna, residents could be seen using inflatable rafts and canoes to deliver supplies to neighbours. 
-The rains have caused at least 18 deaths in Bahia since the beginning of November and thousands of people have been moved from some of the 67 towns facing further flooding.","['A severe drought in South America is due in part to deforestation in the Amazon jungle.', 'Woman prepares Covid-19 vaccine', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-21,22,COP26,Matt McGrath,Climate change: Huge toll of extreme weather disasters in 2021,2021-12-27,https://www.bbc.com/news/science-environment-59761839,"Weather events, linked to a changing climate, brought misery to millions around the world in 2021 according to a new report. 
+The rains have caused at least 18 deaths in Bahia since the beginning of November and thousands of people have been moved from some of the 67 towns facing further flooding.","['A severe drought in South America is due in part to deforestation in the Amazon jungle.', 'Woman prepares Covid-19 vaccine', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [], 'countries': 2     (Brazil)
+3      (Bahia)
+4    (Itabuna)
+6      (Bahia)
+Name: Entities, dtype: object, 'organisations': Series([], Name: Entities, dtype: object)}"
+21,21,22,COP26,Matt McGrath,Climate change: Huge toll of extreme weather disasters in 2021,2021-12-27,https://www.bbc.com/news/science-environment-59761839,"Weather events, linked to a changing climate, brought misery to millions around the world in 2021 according to a new report. 
 The study, from the charity Christian Aid, identified 10 extreme events that each caused more than $1.5bn of damage. 
 The biggest financial impacts were from Hurricane Ida which hit the US in August and flooding in Europe in July. 
 In many poorer regions, floods and storms caused mass displacements of people and severe suffering.
@@ -481,8 +786,21 @@ In the COP26 global climate talks in Glasgow, this issue of finance for loss and
 The report can be found here. 
 Follow Matt on Twitter.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['floods', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-22,23,Climate change,Justin Rowlatt,Wildlife's winners and losers of 2021 - and how extreme weather set the tone,2021-12-27,https://www.bbc.com/news/science-environment-59757497,"Wildlife across the UK is increasingly suffering the impacts of extreme weather events and natural disasters, says the National Trust as it publishes its annual reckoning of UK wildlife ""winners and losers"".
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['floods', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Christian Aid, Friederike Otto, Cyclone Tauktae, Dr Kat Kramer, Christian Aid, Nushrat Chowdhury, Christian Aid's, Follow Matt, Ruby Wax, Donald Trump], 'countries': 6             (US)
+19            (US)
+23     (Louisiana)
+24     (New, York)
+29       (Germany)
+30        (France)
+35           (Aon)
+44         (India)
+45    (Sri, Lanka)
+50       (Glasgow)
+53    (Bangladesh)
+Name: Entities, dtype: object, 'organisations': 14    (the, Intergovernmental, Panel, on, Climate, Change)
+46                                              (Maldives)
+Name: Entities, dtype: object}"
+22,22,23,Climate change,Justin Rowlatt,Wildlife's winners and losers of 2021 - and how extreme weather set the tone,2021-12-27,https://www.bbc.com/news/science-environment-59757497,"Wildlife across the UK is increasingly suffering the impacts of extreme weather events and natural disasters, says the National Trust as it publishes its annual reckoning of UK wildlife ""winners and losers"".
 The conservation charity also warns some of the landscapes it cares for are being altered forever as climate change makes some forms of extreme weather the new normal.
 It points to the very dry spring that saw wildfires devastate parts of National Trust estates in the Mourne Mountains in Northern Ireland and Marsden Moor in Yorkshire.  
 The fires destroyed habitats for a range of threatened species including golden plover and Irish hare.
@@ -508,8 +826,45 @@ Oak flowers need dry warm weather to successfully produce acorns - conditions fo
 The record number of late frosts through April - and into late May - in some parts of the country hammered apple blossom and led to a poor apple harvest, particularly in northern parts of England and Northern Ireland.  
 It was a topsy-turvy year for terns too. 
 At Blakeney Point in Norfolk, little terns - one species of these small seabirds - abandoned their nests, scared off by the presence of a short-eared owl and common gulls. But the neighbouring colonies of sandwich and common terns did well, the Trust says.  
-Follow Justin Rowlatt on Twitter @BBCJustinR","['Shadowed waxcap', '1px transparent line', 'Pink waxcap at Jinlye Meadows in Shropshire', '1px transparent line', ""Devil's fingers at Bircher Common in Shropshire"", 'Purple Emperor (male) at Sheringham Park in Norfolk', '1px transparent line', 'Large blue butterfly', 'The Holm oak at Westbury Court Garden in Gloucestershire', 'Little terns', '1px transparent line', 'Colony of sandwich terns']",3
-23,24,Climate change,BBC News,"Floods getting bigger and more frequent, says river expert",2021-12-26,https://www.bbc.com/news/uk-england-hereford-worcester-59726441,"Floods on the River Severn and other waterways in the West Midlands are likely to continue getting bigger and more frequent, an expert has said.
+Follow Justin Rowlatt on Twitter @BBCJustinR","['Shadowed waxcap', '1px transparent line', 'Pink waxcap at Jinlye Meadows in Shropshire', '1px transparent line', ""Devil's fingers at Bircher Common in Shropshire"", 'Purple Emperor (male) at Sheringham Park in Norfolk', '1px transparent line', 'Large blue butterfly', 'The Holm oak at Westbury Court Garden in Gloucestershire', 'Little terns', '1px transparent line', 'Colony of sandwich terns']",3,"{'person': [Storm Arwen, Ben McCarthy], 'countries': 0                    (UK)
+3                    (UK)
+6     (Northern, Ireland)
+8             (Yorkshire)
+20                (Wales)
+21           (Wallington)
+22       (Northumberland)
+26              (Britain)
+29                   (UK)
+36             (colonies)
+47      (Gloucestershire)
+48                   (UK)
+52              (England)
+53                (Wales)
+59           (Shropshire)
+63        (Herefordshire)
+66            (Australia)
+67         (New, Zealand)
+72              (England)
+74              (England)
+76              (England)
+77    (Northern, Ireland)
+79              (Norfolk)
+Name: Entities, dtype: object, 'organisations': 1                   (the, National, Trust)
+4                        (National, Trust)
+7                          (Marsden, Moor)
+16                       (National, Trust)
+32              (the, National, Trust, 's)
+37                  (the, National, Trust)
+46                (Rodborough, Common, in)
+54    (the, Holnicote, Estate, on, Exmoor)
+60                       (National, Trust)
+64                    (Devil, 's, Fingers)
+70      (the, Butterfly, Conservation, 's)
+71                       (National, Trust)
+78                       (Blakeney, Point)
+81                                 (Trust)
+Name: Entities, dtype: object}"
+23,23,24,Climate change,BBC News,"Floods getting bigger and more frequent, says river expert",2021-12-26,https://www.bbc.com/news/uk-england-hereford-worcester-59726441,"Floods on the River Severn and other waterways in the West Midlands are likely to continue getting bigger and more frequent, an expert has said.
 Dave Throup retires this month after 21 years with the Environment Agency.
 He said climate change was going to continue to have a significant impact on people living and working near the Severn, the UK's longest river.
 Ahead of retirement, he reflected on his ""great"" job and becoming a familiar face in the media at times of flooding. 
@@ -544,12 +899,31 @@ Married to Cathryn, with two grown-up children, Mr Throup said he hoped to spend
 Follow BBC West Midlands on Facebook, Twitter and Instagram. Send your story ideas to: newsonline.westmidlands@bbc.co.uk
 Information about BBC links to other news sites
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-24,25,General,BBC News,Title of article,2021-12-26,https://www.bbc.com/news/world-us-canada-59707864,"Around the US, an estimated three million oil wells have been abandoned. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Dave Throup, Herefordshire, Herefordshire, Rentokil, Mr Throup, Ruby Wax, Donald Trump], 'countries': 7                 (UK)
+26    (Worcestershire)
+36           (Kerrang)
+45             (Wales)
+47    (Worcestershire)
+48           (Cathryn)
+Name: Entities, dtype: object, 'organisations': 5     (the, Environment, Agency)
+8                       (Throup)
+22                      (Throup)
+32                      (Throup)
+37                 (Al, Jazeera)
+39         (Environment, Agency)
+43                      (Throup)
+46    (the, Environment, Agency)
+51                         (BBC)
+53                   (Instagram)
+54                         (BBC)
+Name: Entities, dtype: object}"
+24,24,25,General,BBC News,Title of article,2021-12-26,https://www.bbc.com/news/world-us-canada-59707864,"Around the US, an estimated three million oil wells have been abandoned. 
 Many of the wells are emitting harmful methane gases, which are more harmful to the environment than carbon dioxide.
 That's why Curtis Shuck, a 30-year veteran of the oil industry, has stepped in. 
-He's created Well Done, a not for-profit organisation dedicated to capping the old wells.","['A local woman with a seal carcass in northern Alaska', 'Stephanie', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-25,26,Climate change,BBC News,Welsh cook will spend Christmas aboard Boaty McBoatface,2021-12-24,https://www.bbc.com/news/uk-wales-59774341,"A Welsh chef will enjoy the ultimate white Christmas - on Boaty McBoatface's maiden voyage to Antarctica.
+He's created Well Done, a not for-profit organisation dedicated to capping the old wells.","['A local woman with a seal carcass in northern Alaska', 'Stephanie', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [Curtis Shuck], 'countries': 0    (US)
+Name: Entities, dtype: object, 'organisations': 4    (Done)
+Name: Entities, dtype: object}"
+25,25,26,Climate change,BBC News,Welsh cook will spend Christmas aboard Boaty McBoatface,2021-12-24,https://www.bbc.com/news/uk-wales-59774341,"A Welsh chef will enjoy the ultimate white Christmas - on Boaty McBoatface's maiden voyage to Antarctica.
 Steve Carpenter, 49, from Caerphilly, is a cook steward on the exploration ship, officially named RRS Sir David Attenborough.
 He will serve Christmas dinner in the winter wonderland setting, but penguins, seals and polar bears are staying off the menu.
 Steve said it would be ""traditional"" and served on Christmas Eve.
@@ -566,12 +940,23 @@ But this year, he will have a guaranteed white Christmas in a place he says, ""d
 ""This is my first trip down south. It's such an amazing opportunity to get down here. It's an absolutely mind-blowing place.""
 Minister for the polar regions, Amanda Milling, said: ""This magnificent ship is something everyone across the United Kingdom can take immense pride in. I'd like to wish everyone on board for its maiden voyage a Merry Christmas.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Steve Carpenter', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-26,27,General,BBC News,Title of article,2021-12-24,https://www.bbc.com/news/technology-59785567,"A start-up from Oxford is hoping to make laundry more environmentally friendly by collecting clothes and washing them in its more eco-friendly laundrette.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Steve Carpenter', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [McBoatface, Steve Carpenter, David Attenborough, Steve, Boaty McBoatface, Steve, David Attenborough, Steve, Ruby Wax, Donald Trump], 'countries': 4               (Caerphilly)
+11                      (UK)
+31          (Signey, Island)
+41    (the, United, Kingdom)
+Name: Entities, dtype: object, 'organisations': 29                         (Rothera)
+37    (the, Royal, Auxiliary, Fleet)
+40                 (Amanda, Milling)
+Name: Entities, dtype: object}"
+26,26,27,General,BBC News,Title of article,2021-12-24,https://www.bbc.com/news/technology-59785567,"A start-up from Oxford is hoping to make laundry more environmentally friendly by collecting clothes and washing them in its more eco-friendly laundrette.
 OxWash uses cold water in its machines to reduce energy consumption and uses a specialised detergent that produces ozone to sterilise clothes.
 BBC Click's Chris Fox visited one of the company's centres in Battersea, London and asked founder Kyle Grant why people would want to send their clothes away to be washed.
-Follow Chris Fox on Twitter and Instagram","['Chris Fox with games controllers', 'Chris Fox holding two huge retro mobile phones', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3
-27,28,Climate change,Marco Silva,Climate change: Small army of volunteers keeping deniers off Wikipedia,2021-12-24,https://www.bbc.com/news/blogs-trending-59452614,"Wikipedia has for so long been plagued by climate change denial. But a group of dedicated volunteers around the world is working tirelessly to keep the deniers at bay.
+Follow Chris Fox on Twitter and Instagram","['Chris Fox with games controllers', 'Chris Fox holding two huge retro mobile phones', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3,"{'person': [BBC Click's, Chris Fox, Kyle Grant, Chris Fox], 'countries': 0       (Oxford)
+4    (Battersea)
+5       (London)
+Name: Entities, dtype: object, 'organisations': 9    (Instagram)
+Name: Entities, dtype: object}"
+27,27,28,Climate change,Marco Silva,Climate change: Small army of volunteers keeping deniers off Wikipedia,2021-12-24,https://www.bbc.com/news/blogs-trending-59452614,"Wikipedia has for so long been plagued by climate change denial. But a group of dedicated volunteers around the world is working tirelessly to keep the deniers at bay.
 David Tetta lives in northern California, in the kind of close-knit community where neighbours just wander into each other's homes - during our interview, he breaks off for a second to shoo one of them out of the room.
 It was while chatting to his neighbours that David first thought of volunteering to edit Wikipedia. In 2019, around the time wildfires were raging across the state, climate change was coming up more and more often as a topic. 
 ""Many conversations seemed to evolve into people expressing their feelings of angst and fear about the environment,"" he says. 
@@ -623,8 +1008,35 @@ And bad information, even outright conspiracies theories, are more common on cli
 For now, it is entirely down to volunteers to hold the fort.
 ""Wikipedia is uneven,"" says Su-Laine. ""You have to still take it with a grain of salt."" 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['The Denial Files branding - a planet with headphones on a background of fire', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-28,29,Climate change,Louise Cullen,Poots launches consultation on Future Agricultural Policy,2021-12-21,https://www.bbc.com/news/uk-northern-ireland-59749071,"The agriculture minister has launched a consultation on policy proposals for the Future Agriculture Policy.  
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['The Denial Files branding - a planet with headphones on a background of fire', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [David Tetta, David, English Wikipedia, David, David, David, David, English Wikipedia, Femke Nijsse, Su-Laine Brodsky, Alex Stinson, Su-Laine, Ruby Wax, Donald Trump], 'countries': 2     (California)
+47        (Canada)
+Name: Entities, dtype: object, 'organisations': 0                                      (Wikipedia)
+6                                      (Wikipedia)
+9     (the, US, Environmental, Protection, Agency)
+11                                     (Wikipedia)
+13                                     (Wikipedia)
+19                                     (Wikipedia)
+25                            (English, Wikipedia)
+26                                     (Wikipedia)
+28                                     (Wikipedia)
+35                                     (Wikipedia)
+36                                     (Wikipedia)
+37                                         (Femke)
+38                                     (Wikipedia)
+39                   (the, University, of, Exeter)
+40                                     (Wikipedia)
+42                                     (Wikipedia)
+44                                         (Femke)
+45                                     (Wikipedia)
+48                                  (Su, -, Laine)
+49                                     (Wikipedia)
+53                    (the, Wikimedia, Foundation)
+54                                     (Wikipedia)
+57                            (English, Wikipedia)
+59                                           (BBC)
+60                                     (Wikipedia)
+Name: Entities, dtype: object}"
+28,28,29,Climate change,Louise Cullen,Poots launches consultation on Future Agricultural Policy,2021-12-21,https://www.bbc.com/news/uk-northern-ireland-59749071,"The agriculture minister has launched a consultation on policy proposals for the Future Agriculture Policy.  
 It is based on four outcomes - productivity, environmental sustainability, improved resilience and an effectively functioning supply chain.  
 The aim is to try to reduce greenhouse gas (GHG) emissions from farming. 
 Agriculture as a sector is the largest emitter in Northern Ireland.  
@@ -637,11 +1049,15 @@ Edwin Poots also said it was a chance to ""target support to meet local prioriti
 ""As we build out this future portfolio, I want to ensure that farmers are supported and equipped with the right tools to continue producing high quality, nutritious food whilst importantly, also reducing their environmental impact,"" he added.
 The consultation is open until 15 February 2022, with early findings to be published early in the year.  
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Farmer', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-29,30,General,BBC News,Title of article,2021-12-21,https://www.bbc.com/news/uk-wales-59741676,"""We need to understand how climate change will affect our future.""
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Farmer', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Edwin Poots, Ruby Wax, Donald Trump], 'countries': 3    (Northern, Ireland)
+Name: Entities, dtype: object, 'organisations': 0    (the, Future, Agriculture, Policy)
+2                                 (GHG)
+Name: Entities, dtype: object}"
+29,29,30,General,BBC News,Title of article,2021-12-21,https://www.bbc.com/news/uk-wales-59741676,"""We need to understand how climate change will affect our future.""
 These are the words from experts at Wales' new coastal monitoring centre. 
-It is hoped that new data methods will mean better sea defences for residents.","['Homes falling into the sea at Hemsby', 'Home falling in to sea', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",2
-30,31,Climate change,Jesse Preyser,Miners experiment with hydrogen to power giant trucks,2021-12-21,https://www.bbc.com/news/business-59576867,"Mining trucks are monstrous machines that guzzle fuel at a scarcely believable rate.
+It is hoped that new data methods will mean better sea defences for residents.","['Homes falling into the sea at Hemsby', 'Home falling in to sea', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",2,"{'person': [], 'countries': Series([], Name: Entities, dtype: object), 'organisations': 0    (Wales)
+Name: Entities, dtype: object}"
+30,30,31,Climate change,Jesse Preyser,Miners experiment with hydrogen to power giant trucks,2021-12-21,https://www.bbc.com/news/business-59576867,"Mining trucks are monstrous machines that guzzle fuel at a scarcely believable rate.
 Weighing 220 tonnes, they can get through 134 litres of diesel every hour. 
 Little wonder then that mining companies are focusing their attention on these vehicles as the first step to reducing their carbon footprint.
 Anglo American, in collaboration with several partners, is retrofitting a mining haul truck with hydrogen power technology.
@@ -676,8 +1092,25 @@ The starting point for this ecosystem is due to be built at the Mogalakwena mine
 Initially, it will be to support the 24-hour operation of the new truck, but once operational, the aim is for numerous complexes such as this one, to serve as local and regional hubs for the emerging hydrogen economy.
 ""The ecosystem would not only help us reduce our... emissions, but would also provide the foundation for green hydrogen production, facilitating the roll-out of hydrogen-powered haul trucks across South Africa,"" Anglo says.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Mogalakwena mine, Limpopo South Africa', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-31,32,Budget 2021,BBC News,Welsh budget: Bumper funding rise for Welsh NHS amid backlog,2021-12-20,https://www.bbc.com/news/uk-wales-politics-59720795,"NHS spending in Wales will jump next year to tackle record high waiting times created by Covid.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Mogalakwena mine, Limpopo South Africa', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Mogalakwena, Williams Advanced Engineering, Davide Sabbadin, Diego Marin, Mr Sabbadin, Jarrad Wright, Mr Wright, Mogalakwena, Ruby Wax, Donald Trump], 'countries': 7               (Limpopo)
+8         (South, Africa)
+17                (Engie)
+34                (Marin)
+42        (South, Africa)
+46    (South, Africa, 's)
+53        (South, Africa)
+Name: Entities, dtype: object, 'organisations': 20                                                              (Ballard)
+21                                                                  (ABB)
+22                                                                  (Nel)
+23                                                          (Plug, Power)
+28                                 (the, European, Environmental, Bureau)
+29                                                                  (EEB)
+33                                                                  (EEB)
+38                                                                  (EEB)
+40                                                                  (EEB)
+44    (the, Council, for, Scientific, and, Industrial, Research, (, CSIR)
+Name: Entities, dtype: object}"
+31,31,32,Budget 2021,BBC News,Welsh budget: Bumper funding rise for Welsh NHS amid backlog,2021-12-20,https://www.bbc.com/news/uk-wales-politics-59720795,"NHS spending in Wales will jump next year to tackle record high waiting times created by Covid.
 An extra Â£893m will be pumped in during 2022, as part of the Â£24.6bn Welsh government budget.
 More cash has also been promised for councils, and Labour Finance Minister Rebecca Evans said the budget will help make Wales ""a fairer nation"".
 Welsh Conservatives said the budget had been made possible after record funding from the UK government.
@@ -727,8 +1160,41 @@ The Welsh government has matched what is happening in England and business rates
 With a new Welsh government department focused on climate change, it's hardly surprising that it's getting more money. What is interesting, and tells us about the departments priorities, is that of the Â£1.8bn for capital spending by the climate change minister almost all of it (Â£1.6bn) is to improve the quality and supply of housing.   
 This budget is taking the long term view even though the immediate economic landscape is extremely fragile.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Around the BBC footer - Sounds', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-32,33,Climate change,BBC News,Calls for 'reasoned debate' over oil and gas future,2021-12-19,https://www.bbc.com/news/uk-scotland-scotland-business-59717784,"Business leaders have written a joint open letter to party leaders calling for a ""reasoned debate"" over the future of oil and gas in the UK.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Around the BBC footer - Sounds', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Covid, Rebecca Evans, Helen Whyley, Ms Whyley, Plaid Cymru, Rishi Sunak, Michael Manghan, Rhian Davies, Ms Davies, Manghan, Sam Dabb, Vale, Stephen Leeke, Rebecca Evans, Wales, Peter Fox, Llyr Gruffydd, Wales, Plaid Cymru, Ruby Wax, Donald Trump], 'countries': 0        (Wales)
+5        (Wales)
+7           (UK)
+20       (Wales)
+25       (Wales)
+26       (Wales)
+27     (England)
+39        (Â£90)
+44     (England)
+51     (Sceptre)
+52    (Cadoxton)
+60     (Newport)
+64     (England)
+67      (Hensol)
+76       (Â£3bn)
+78       (Wales)
+80       (Wales)
+87       (Wales)
+88       (Wales)
+93       (Wales)
+95       (Wales)
+96     (England)
+Name: Entities, dtype: object, 'organisations': 10                              (Wales)
+18    (the, Royal, College, of, Nurses)
+23     (The, Welsh, NHS, Confederation)
+24                                (NHS)
+29                 (Â£5,1bn, -, 8,1, %)
+32                           (Treasury)
+33                (Cardiff, University)
+53                              (Neath)
+66                  (The, Vale, Resort)
+71    (the, Economic, Resilience, Fund)
+72                                (ERF)
+Name: Entities, dtype: object}"
+32,32,33,Climate change,BBC News,Calls for 'reasoned debate' over oil and gas future,2021-12-19,https://www.bbc.com/news/uk-scotland-scotland-business-59717784,"Business leaders have written a joint open letter to party leaders calling for a ""reasoned debate"" over the future of oil and gas in the UK.
 The call comes after plans for the controversial Cambo Oil field off Shetland were put on hold. 
 The letter says any statements calling for an end to new exploration have shaken investor confidence, placing tens of thousands of jobs at risk.
 It warns politicians against creating a ""hostile investment environment"".
@@ -750,8 +1216,22 @@ Deirdre Michie, chief executive of OGUK, which represents the UK's offshore oil 
 She said that for years to come, oil and gas needed to be part of the energy mix. 
 ""It will be far better for the nation and the environment if we source these fuels from around our shores rather than relying on even more imports,""  she added.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Oil platform', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-33,34,Climate change,BBC News,Bangor's Hirael sea defences 'in various states of disrepair',2021-12-18,https://www.bbc.com/news/uk-wales-59709880,"Plans have been drawn up to build 600m (1,970ft) of new defences to protect properties from floods and rising sea levels.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Oil platform', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Cambo Oil, Russell Borthwick, Deirdre Michie, Ruby Wax, Donald Trump], 'countries': 0           (UK)
+2     (Shetland)
+8     (Aberdeen)
+9           (UK)
+20    (Scotland)
+21          (UK)
+29          (UK)
+Name: Entities, dtype: object, 'organisations': 4     (Aberdeen, &, Grampian, Chamber, of, Commerce)
+5             (The, British, Chambers, of, Commerce)
+6                 (Scottish, Chambers, of, Commerce)
+12              (the, International, Energy, Agency)
+17    (Aberdeen, &, Grampian, Chamber, of, Commerce)
+26                                        (Aberdeen)
+28                                            (OGUK)
+Name: Entities, dtype: object}"
+33,33,34,Climate change,BBC News,Bangor's Hirael sea defences 'in various states of disrepair',2021-12-18,https://www.bbc.com/news/uk-wales-59709880,"Plans have been drawn up to build 600m (1,970ft) of new defences to protect properties from floods and rising sea levels.
 Existing defences are ""in various states of disrepair"" at Hirael, in Bangor, a report submitted to Gwynedd Council has said.
 The sea level is projected to rise 1.2m (3.9ft) by the end of this century, the Local Democracy Reporting Service said. 
 The area has previously been hit by severe flooding in 1923 and 1973.
@@ -763,8 +1243,14 @@ Designed by Ymgynghoriaeth Gwynedd Consultancy, the supporting documents said: "
 ""Temporary flood barriers such as sandbags have been deployed in the past along the length of the sea wall and two slipways to deal with high tides and wave surges but are not a sufficient source of long-term flood protection.""
 It is expected that Gwynedd Council's planning department will consider the application in the coming months.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Residents being evacuated by boat in 1923', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-34,35,Climate change,Becky Morton,Climate change: How can renters make their homes warmer and greener?,2021-12-18,https://www.bbc.com/news/uk-59223081,"Making the UK's ageing housing more energy efficient will be key to the country reaching its climate targets - but campaign groups representing renters and landlords say more action is needed to drive improvements.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Residents being evacuated by boat in 1923', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Adda, Ymgynghoriaeth Gwynedd Consultancy, Ruby Wax, Donald Trump], 'countries': 2     (Hirael)
+3     (Bangor)
+15    (Hirael)
+Name: Entities, dtype: object, 'organisations': 4                              (Gwynedd, Council)
+7     (the, Local, Democracy, Reporting, Service)
+19                         (Gwynedd, Council, 's)
+Name: Entities, dtype: object}"
+34,34,35,Climate change,Becky Morton,Climate change: How can renters make their homes warmer and greener?,2021-12-18,https://www.bbc.com/news/uk-59223081,"Making the UK's ageing housing more energy efficient will be key to the country reaching its climate targets - but campaign groups representing renters and landlords say more action is needed to drive improvements.
 ""At one point you could see your breath in the living room it was that cold,"" says Erin Davy. 
 The 29-year-old was renting a two-bedroom flat in Melbourn, Cambridgeshire. 
 The letting agent had given an estimate of around Â£80 a month for the electricity bill. But when she moved in, her direct debit ended up being just under Â£200 a month - and over winter her monthly bill soared to as much as Â£400 a month. 
@@ -801,11 +1287,29 @@ As well as more generous grants, the association also wants to see tax deducted 
 With gas prices surging, Mr Craw says making homes more energy efficient is even more urgent. 
 ""If you could address it, you can improve standards of life for private renters and cut carbon emissions,"" he says. ""But it requires action from the government to do that.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Infographic showing five energy-efficient measures people can adopt to save energy', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-35,36,General,BBC News,Title of article,2021-12-17,https://www.bbc.com/sport/av/motorsport/59703165,"JBXE owner and driver Jenson Button tells BBC Sport how Extreme E has been helping to raise awareness of climate change.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Infographic showing five energy-efficient measures people can adopt to save energy', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Erin Davy, Erin, Erin, Erin, Dan Wilson Craw, Chris Norris, Norris, Ruby Wax, Donald Trump], 'countries': 0           (UK)
+5     (Melbourn)
+11          (UK)
+19     (England)
+20       (Wales)
+22    (Scotland)
+30     (England)
+33     (England)
+34       (Wales)
+Name: Entities, dtype: object, 'organisations': 6                                         (Cambridgeshire)
+16                                                   (EPC)
+18                                      (Generation, Rent)
+24                                      (Generation, Rent)
+27    (the, National, Residential, Landlords, Association)
+31                                                (EPC, C)
+Name: Entities, dtype: object}"
+35,35,36,General,BBC News,Title of article,2021-12-17,https://www.bbc.com/sport/av/motorsport/59703165,"JBXE owner and driver Jenson Button tells BBC Sport how Extreme E has been helping to raise awareness of climate change.
 READ MORE: How motorsport can lead to cleaner mobility
-Follow the last race of the season in Dorset across the BBC Sport app and iPlayer this weekend.","['Pep Guardiola', ""Newcastle's January transfer window"", 'Thomas Tuchel', 'Pepijn Lijnders', 'Antonio Conte', 'Albert Stuivenberg', 'Pep Guardiola', 'Thomas Tuchel', 'Graham Potter', 'Brendan Rodgers', 'Jurgen Klopp', 'Joe Root']",3
-36,37,Storm Dennis,Matthew Murray,Climate change: Young activists snub award,2021-12-17,https://www.bbc.com/news/uk-wales-59690009,"Young members of an environmental group have turned down an award from a council, accusing it of not doing enough to tackle climate change.
+Follow the last race of the season in Dorset across the BBC Sport app and iPlayer this weekend.","['Pep Guardiola', ""Newcastle's January transfer window"", 'Thomas Tuchel', 'Pepijn Lijnders', 'Antonio Conte', 'Albert Stuivenberg', 'Pep Guardiola', 'Thomas Tuchel', 'Graham Potter', 'Brendan Rodgers', 'Jurgen Klopp', 'Joe Root']",3,"{'person': [JBXE, Jenson Button], 'countries': 3    (Dorset)
+Name: Entities, dtype: object, 'organisations': 2    (BBC, Sport)
+4       (iPlayer)
+Name: Entities, dtype: object}"
+36,36,37,Storm Dennis,Matthew Murray,Climate change: Young activists snub award,2021-12-17,https://www.bbc.com/news/uk-wales-59690009,"Young members of an environmental group have turned down an award from a council, accusing it of not doing enough to tackle climate change.
 Pontypridd's Young Friends of the Earth has been campaigning for changes to address the climate emergency. 
 It said Rhondda Cynon Taf council has not done enough since the devastating floods in 2020 after Storm Dennis. 
 Group member Alice, 13, said: ""It would be hypocritical for us to take the award.""
@@ -827,8 +1331,18 @@ Rowan, 10, said they thought it would generate more publicity to turn down the a
 ""I might have a future with crumbling mountains and suffocating air, and I don't want that to happen.""
 Council leader Andrew Morgan replied to a letter from the group declining the award, saying the council is committed to achieving net zero by 2030 and ""has already made progress towards achieving this commitment to meet and contribute to global, national and local targets"". 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Alice with loudspeaker', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-37,38,Climate change,BBC News,Preston's City's carbon neutral aim poses 'financial challenge',2021-12-17,https://www.bbc.com/news/uk-england-lancashire-59696406,"A city council's aim to become carbon neutral by 2030 poses a financial challenge, a report has found.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Alice with loudspeaker', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Alice, Alice, Dan, Rowan, Andrew Morgan, Ruby Wax, Donald Trump], 'countries': 8     (Wales)
+19    (Wales)
+Name: Entities, dtype: object, 'organisations': 0            (Young, Friends, of, the)
+2       (Rhondda, Cynon, Taf, council)
+4                      (Storm, Dennis)
+7                      (Storm, Dennis)
+11                  (the, River, Taff)
+17    (Young, Friends, of, the, Earth)
+18               (Rhondda, Cynon, Taf)
+21                               (RCT)
+Name: Entities, dtype: object}"
+37,37,38,Climate change,BBC News,Preston's City's carbon neutral aim poses 'financial challenge',2021-12-17,https://www.bbc.com/news/uk-england-lancashire-59696406,"A city council's aim to become carbon neutral by 2030 poses a financial challenge, a report has found.
 A cross-party task group has spent almost two years exploring what Preston City Council needs to do to fulfil the pledge made in April 2019.
 The report said decisions would have to be taken ensure ""the greatest carbon reduction can be achieved at the earliest opportunity"".
 But its fleet of 124 vehicles will remain diesel-driven.
@@ -844,8 +1358,17 @@ It also suggested that the council carries out a study to explore whether it is 
 Why not follow BBC North West on Facebook, Twitter and Instagram? You can also send story ideas to northwest.newsonline@bbc.co.uk
 Information about BBC links to other news sites
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-38,39,COP26,Steffan Messenger,Climate change: Wales COP26 events 'costly failure',2021-12-16,https://www.bbc.com/news/uk-wales-59670318,"A series of events held in Wales to coincide with the COP26 climate summit has been branded a costly ""failure"" by the Welsh Conservatives.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Robert Boswell, John Potter, James Hull, Ruby Wax, Donald Trump], 'countries': 7            (Preston)
+18    (newsonline@bbc)
+Name: Entities, dtype: object, 'organisations': 2                        (Preston, City, Council)
+10                                       (Labour)
+13    (the, Local, Democracy, Reporting, Service)
+14                                          (BBC)
+15                                     (Facebook)
+17                                    (Instagram)
+19                                          (BBC)
+Name: Entities, dtype: object}"
+38,38,39,COP26,Steffan Messenger,Climate change: Wales COP26 events 'costly failure',2021-12-16,https://www.bbc.com/news/uk-wales-59670318,"A series of events held in Wales to coincide with the COP26 climate summit has been branded a costly ""failure"" by the Welsh Conservatives.
 Figures obtained by the party show the Welsh government spent Â£235,000 on COP Cymru.
 But the Tories claim the programme of debates and lectures resulted in little public or media interest.
 The Welsh government said more than 3,800 people had attended the events online.
@@ -874,8 +1397,17 @@ He added that if the government was to meet its net zero targets it was ""crucia
 ""COP Cymru brought the conversation closer to home and was an important opportunity to engage citizens across Wales, helping them understand the need for collective action and the role they can play."" 
 On coal tip safety, he added it was the UK Government that was ""unwilling to take responsibility"" for the restoration work costs, currently estimated to be at least Â£500m.  
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Around the BBC iPlayer footer', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-39,40,COP26,Kayleen Devlin,The teenagers and the nun trying to stop an Australian coal mine,2021-12-15,https://www.bbc.com/news/world-australia-59390798,"When eight teenagers and an elderly nun in Australia teamed up for a climate case, they won, in a historic judgement. Their case has now been appealed by the country's government. If the final verdict swings in their favour, it will have ramifications not just for Australian law but for climate cases world-wide. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Around the BBC iPlayer footer', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [Glasgow, Welsh, Janet Finch-Saunders MS, Mary Gagen, Anna Bullen, Ruby Wax, Donald Trump], 'countries': 0            (Wales)
+7     (Port, Talbot)
+9            (Wales)
+18           (Wales)
+30           (Wales)
+31           (Wales)
+32           (Wales)
+Name: Entities, dtype: object, 'organisations': 20                          (Swansea, University)
+23    (the, Centre, for, Alternative, Technology)
+Name: Entities, dtype: object}"
+39,39,40,COP26,Kayleen Devlin,The teenagers and the nun trying to stop an Australian coal mine,2021-12-15,https://www.bbc.com/news/world-australia-59390798,"When eight teenagers and an elderly nun in Australia teamed up for a climate case, they won, in a historic judgement. Their case has now been appealed by the country's government. If the final verdict swings in their favour, it will have ramifications not just for Australian law but for climate cases world-wide. 
 In May this year, Anjali Sharma was sitting in her economics class at school in Melbourne when the court in Sydney live-streamed the results of a climate case she had found herself at the centre of. It took a while to sink in. 
 ""To me it all just sounded like jargon. It took a briefing from my legal team to understand the magnitude of what had happened,"" she says. 
 At that moment 17-year-old Ms Sharma and the seven other teenagers involved in her case had made history. Alongside 87-year-old Catholic nun Brigid Arthur, who acted as the young people's legal guardian, they'd taken Australia's environment minister, Sussan Ley, to court - and won.
@@ -917,8 +1449,36 @@ He hopes that the duty of care ruling - if maintained through the appeal process
 It's too soon to tell whether this case will provide a turning point on climate inaction. But for Ms Sharma and the other teenagers involved in her case, the time for action is now.
 ""I really hope the federal court realises that Australia is now running behind the rest of the world, and that the duty of care that my case seeks to establish is really, really needed right now.""
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","[""Australia is the world's second largest exporter of coal"", 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-40,41,Climate change,BBC News,Insulate Britain activists vow to continue breaking law,2021-12-14,https://www.bbc.com/news/uk-england-59651548,"An Insulate Britain protestor says she will continue breaking the law to convince the government to fix Britain's ""leaky homes"".
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","[""Australia is the world's second largest exporter of coal"", 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Anjali Sharma, Ms Sharma, Brigid Arthur, Sussan Ley, Ms Sharma, Mordy Bromberg, Bromberg, Sussan Ley, David Barnden, Brigid Arthur, Arthur, Ms Sharma, Ms Sharma, Glasgow, Scott Morrison, Mr Barnden, Ms Sharma, Ruby Wax, Donald Trump], 'countries': 1        (Australia)
+5        (Melbourne)
+6           (Sydney)
+14       (Australia)
+16       (Australia)
+40       (Australia)
+43       (Australia)
+58       (Australia)
+63         (Glasgow)
+64           (China)
+65           (India)
+67       (Australia)
+68       (Australia)
+78              (UK)
+79    (New, Zealand)
+80          (Canada)
+81              (US)
+83       (Australia)
+Name: Entities, dtype: object, 'organisations': 7                    (jargon)
+18                  (Vickery)
+26                  (Vickery)
+30                  (Vickery)
+44    (News, Corp, Australia)
+47    (News, Corp, Australia)
+51               (News, Corp)
+52     (Sky, News, Australia)
+54     (Sky, News, Australia)
+61           (Sister, Brigid)
+Name: Entities, dtype: object}"
+40,40,41,Climate change,BBC News,Insulate Britain activists vow to continue breaking law,2021-12-14,https://www.bbc.com/news/uk-england-59651548,"An Insulate Britain protestor says she will continue breaking the law to convince the government to fix Britain's ""leaky homes"".
 Anglican priest Reverend Sue Parfitt, 79, told the Royal Courts of Justice that it was of ""no consequence"" if she was jailed for breaching a High Court injunction by blocking a highway.
 Seven members of the climate group appeared and admitted the allegations.
 They are set to be sentenced on Wednesday.
@@ -932,8 +1492,29 @@ He added: ""I will sleep tonight and thereafter with a clear conscience.""
 The four other defendants are: Ruth Jarman, 58, from Hook; Hampshire; Biff Whipster, 54, from Canterbury, Kent; Paul Sheeky, 46, from Warrington, Cheshire; and Richard Ramsden, 75, from Halifax, West Yorkshire.
 Dr Diana Warner, 62, from Bristol; and Bristol academic Dr Ben Buse, 36, are expected to be dealt with alongside the other seven on Wednesday.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Insulate Britain activists blocking the highway during a protest', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-41,42,Climate change,BBC News,"Arctic heat record is like Mediterranean, says UN",2021-12-14,https://www.bbc.com/news/science-environment-59649066,"The highest temperature ever recorded in the Arctic, 38C (100F), has been officially confirmed, sounding ""alarm bells"" over Earth's changing climate.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Insulate Britain activists blocking the highway during a protest', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Sue Parfitt, Rev Parfitt, Stephen Pritchard, Radstock, Steve Gower, Ruth Jarman, Biff Whipster, Paul Sheeky, Richard Ramsden, Diana Warner, Ben Buse, Ruby Wax, Donald Trump], 'countries': 1             (Britain)
+2             (Britain)
+10            (Britain)
+20           (Somerset)
+23         (Gloucester)
+29          (Hampshire)
+32         (Canterbury)
+36         (Warrington)
+40            (Halifax)
+41    (West, Yorkshire)
+Name: Entities, dtype: object, 'organisations': 0                            (Insulate)
+5     (the, Royal, Courts, of, Justice)
+6                         (High, Court)
+9                            (Insulate)
+11                                (M25)
+15                            (Bristol)
+28                               (Hook)
+33                               (Kent)
+37                           (Cheshire)
+44                            (Bristol)
+45                            (Bristol)
+Name: Entities, dtype: object}"
+41,41,42,Climate change,BBC News,"Arctic heat record is like Mediterranean, says UN",2021-12-14,https://www.bbc.com/news/science-environment-59649066,"The highest temperature ever recorded in the Arctic, 38C (100F), has been officially confirmed, sounding ""alarm bells"" over Earth's changing climate.
 The World Meteorological Organization (WMO) on Tuesday verified the record, reported in the Siberian town of Verkhoyansk on 20 June last year. 
 The temperature was 18C higher than the area's average daily maximum for June.
 The WMO, a UN agency, said the extreme heat was ""more befitting the Mediterranean than the Arctic"".
@@ -956,11 +1537,26 @@ Human activity is contributing to a rise in world temperatures, and climate chan
 Left unchecked, humans and nature will experience catastrophic warming, with worsening droughts, greater sea level rise and mass extinction of species.
 This video can not be played
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2
-42,43,General,BBC News,Title of article,2021-12-14,https://www.bbc.com/news/stories-59635134,"Sick of waiting for electricity to reach his home, John Magiro built his own tiny power plant.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",2,"{'person': [Petteri Taalas, Ruby Wax, Donald Trump], 'countries': 6     (Verkhoyansk)
+20         (Russia)
+27    (Verkhoyansk)
+Name: Entities, dtype: object, 'organisations': 2     (The, World, Meteorological, Organization)
+3                                          (WMO)
+10                                         (WMO)
+11                                          (UN)
+16                                         (WMO)
+26                                         (WMO)
+29             (Weather, and, Climate, Extremes)
+30                                         (WMO)
+32                                         (BBC)
+34                                         (WMO)
+36      (World, Weather, and, Climate, Extremes)
+38                                         (WMO)
+Name: Entities, dtype: object}"
+42,42,43,General,BBC News,Title of article,2021-12-14,https://www.bbc.com/news/stories-59635134,"Sick of waiting for electricity to reach his home, John Magiro built his own tiny power plant.
 Find out more on People Fixing the World. 
-Produced and filmed by Mercy Juma and Rashid Ibrahim. Edited by Daniel Gordon.","['A Tiny Forest in the Netherlands', 'Robocop patrolling a park in LA', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3
-43,44,Climate change,athan Amos,Thwaites: Antarctic glacier heading for dramatic change,2021-12-14,https://www.bbc.com/news/science-environment-59644494,"Scientists are warning of dramatic changes at one of the biggest glaciers in Antarctica, potentially within the next five to 10 years.
+Produced and filmed by Mercy Juma and Rashid Ibrahim. Edited by Daniel Gordon.","['A Tiny Forest in the Netherlands', 'Robocop patrolling a park in LA', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",3,"{'person': [John Magiro, Mercy Juma, Rashid Ibrahim, Daniel Gordon], 'countries': Series([], Name: Entities, dtype: object), 'organisations': Series([], Name: Entities, dtype: object)}"
+43,43,44,Climate change,athan Amos,Thwaites: Antarctic glacier heading for dramatic change,2021-12-14,https://www.bbc.com/news/science-environment-59644494,"Scientists are warning of dramatic changes at one of the biggest glaciers in Antarctica, potentially within the next five to 10 years.
 They say a floating section at the front of Thwaites Glacier that until now has been relatively stable could ""shatter like a car windscreen"". 
 US and UK researchers are currently engaged in an intense study programme at Thwaites because of its melt rate. 
 Already it is dumping 50 billion tonnes of ice into the ocean each year.
@@ -986,8 +1582,33 @@ The autonomous vehicle will go on missions lasting one to four days, navigating 
 ""We've put a lot of effort this past year into developing collision avoidance for the vehicle, to make sure it doesn't crash into the seabed. We also have contingencies whereby if it does get into trouble, it can retrace its steps and retreat to safety.""
 The latest science on Thwaites Glacier is being presented this week at the American Geophysical Union Fall Meeting in New Orleans.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Boaty McBoatface', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
-44,45,Climate change,Jake Horton and Esme Stallard,US tornadoes: Is climate change to blame?,2021-12-13,https://www.bbc.com/news/59641376,"Several US states have been hit by a devastating series of tornadoes, with an expected death toll of more than 100.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Boaty McBoatface', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [Ted Scambos, Erin Pettit, McBoatface, Alex Phillips, Ruby Wax, Donald Trump], 'countries': 4                 (US)
+5                 (UK)
+6           (Thwaites)
+12          (Thwaites)
+15                (US)
+18          (Thwaites)
+20    (Great, Britain)
+21           (Florida)
+33                (UK)
+37          (Thwaites)
+38          (Thwaites)
+46                (UK)
+51      (New, Orleans)
+Name: Entities, dtype: object, 'organisations': 16    (the, International, Thwaites, Glacier, Collaboration)
+17                                                    (ITGC)
+19                                               (BBC, News)
+23                                                    (ITGC)
+24                                                    (ITGC)
+27                               (Oregon, State, University)
+32                  (the, US, National, Science, Foundation)
+34                 (Natural, Environment, Research, Council)
+36                                                    (ITGC)
+43                                                (Thwaites)
+47                          (National, Oceanography, Centre)
+50        (the, American, Geophysical, Union, Fall, Meeting)
+Name: Entities, dtype: object}"
+44,44,45,Climate change,Jake Horton and Esme Stallard,US tornadoes: Is climate change to blame?,2021-12-13,https://www.bbc.com/news/59641376,"Several US states have been hit by a devastating series of tornadoes, with an expected death toll of more than 100.
 These are extremely rare outside the spring and summer, in the US, but this December there has been a record number of tornado warnings. 
 So is climate change causing more frequent and stronger tornadoes?
 When warm moist air is trapped by cooler air, it causes thunder clouds to form.
@@ -1028,8 +1649,43 @@ Mr Brooks says: ""Tornado Alley is not well defined, so that is hard to say - if
 What claims do you want BBC Reality Check to investigate? Get in touch
 Read more from Reality Check
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-45,46,Climate change,BBC News,Wind-powered net zero McDonald's opens in Market Drayton,2021-12-10,https://www.bbc.com/news/uk-england-shropshire-59603244,"A net zero carbon McDonald's has opened in what the company believes is a UK first.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Jana Houser, Harold Brooks, Joe Biden, Ruby Wax, Donald Trump], 'countries': 0                (US)
+3                (US)
+7                (US)
+23               (US)
+29               (US)
+32         (Arkansas)
+33         (Missouri)
+34        (Tennessee)
+35         (Kentucky)
+40           (London)
+41            (Paris)
+45               (US)
+47            (Texas)
+48        (Louisiana)
+49         (Arkansas)
+50         (Oklahoma)
+51           (Kansas)
+52    (South, Dakota)
+53             (Iowa)
+54         (Nebraska)
+55               (US)
+61            (Texas)
+62           (Kansas)
+Name: Entities, dtype: object, 'organisations': 11                                       (the, University, of, Ohio)
+19    (the, US, National, Oceanic, and, Atmospheric, Administration)
+20                                                            (NOAA)
+21                                                          (Brooks)
+25                          (the, Environmental, Protection, Agency)
+27              (the, Intergovernmental, Panel, on, Climate, Change)
+28                                   (National, Geographic, Society)
+44                             (the, National, US, Weather, Service)
+46                                                  (Tornado, Alley)
+56                                                          (Brooks)
+63                                             (BBC, Reality, Check)
+64                                                  (Reality, Check)
+Name: Entities, dtype: object}"
+45,45,46,Climate change,BBC News,Wind-powered net zero McDonald's opens in Market Drayton,2021-12-10,https://www.bbc.com/news/uk-england-shropshire-59603244,"A net zero carbon McDonald's has opened in what the company believes is a UK first.
 The wind turbine and solar panel-powered restaurant is in Market Drayton, Shropshire.
 Recycled IT equipment and household goods make up the building's cladding, signs are from used coffee beans and insulation is provided by sheep wool.
 The fast-food company said it would be used as a ""blueprint"" for other sites and work has started to roll it out.
@@ -1044,13 +1700,32 @@ The firm has said it has put in place strong climate targets for suppliers.
 Follow BBC West Midlands on Facebook, Twitter and Instagram. Send your story ideas to: newsonline.westmidlands@bbc.co.uk
 Information about BBC links to other news sites
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-46,47,General,BBC News,Title of article,2021-12-10,https://www.bbc.com/news/uk-england-sussex-59601355,"Englandâs only Green MP, Caroline Lucas, says the UK needs to overhaul its laws to tackle the climate emergency. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Simon McWhirter, Beth Hart, Market Drayton, Market Drayton, Sharon George, Ruby Wax, Donald Trump], 'countries': 2            (UK)
+4    (Shropshire)
+7            (UK)
+Name: Entities, dtype: object, 'organisations': 1                     (McDonald, 's)
+9     (Green, Building, Council, 's)
+10                           (UKGBC)
+12                    (McDonald, 's)
+14                           (UKGBC)
+16                        (McDonald)
+20               (Keele, University)
+22                    (McDonald, 's)
+23                             (BBC)
+25                       (Instagram)
+26                             (BBC)
+Name: Entities, dtype: object}"
+46,46,47,General,BBC News,Title of article,2021-12-10,https://www.bbc.com/news/uk-england-sussex-59601355,"Englandâs only Green MP, Caroline Lucas, says the UK needs to overhaul its laws to tackle the climate emergency. 
 She has introduced the Climate and Ecology Bill to Parliament, which includes ambitious new targets for reaching net zero and is backed by groups including Extinction Rebellion.
 But how likely is it to change the law? 
 BBC South Eastâs Political Editor Charlotte Wright investigates. 
-Video by Charlotte Wright and David Kifford.","[""Queen talking to Duchess of Cornwall and the Welsh parliament's presiding officer."", 'Turkana', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1
-47,48,Storm Barra,BBC News,Logan Botanic Garden counts cost of Storm Barra damage,2021-12-10,https://www.bbc.com/news/uk-scotland-south-scotland-59593527,"A botanic garden in south west Scotland is counting the cost of the damage caused by Storm Barra.
+Video by Charlotte Wright and David Kifford.","[""Queen talking to Duchess of Cornwall and the Welsh parliament's presiding officer."", 'Turkana', 'Mel Chamberlain and a goat', 'Boris Johnson', 'Man smiling', 'Kunal Kamra', 'Computer games being released in 2022', 'Secretary of State for Education, Nadhim Zahawi', 'One-minute World News summary', 'robot', 'Man doing parkour', 'Coffin in front of South Africa flags']",1,"{'person': [Charlotte Wright, Charlotte Wright, David Kifford], 'countries': 1    (UK)
+Name: Entities, dtype: object, 'organisations': 0                     (Caroline, Lucas)
+2    (the, Climate, and, Ecology, Bill)
+3                          (Parliament)
+6                                 (BBC)
+Name: Entities, dtype: object}"
+47,47,48,Storm Barra,BBC News,Logan Botanic Garden counts cost of Storm Barra damage,2021-12-10,https://www.bbc.com/news/uk-scotland-south-scotland-59593527,"A botanic garden in south west Scotland is counting the cost of the damage caused by Storm Barra.
 Curator Richard Baines said the destruction at the Port Logan site was ""heart-breaking"".
 Logan Botanic Garden was in one of the areas worst affected by the storm on Tuesday, with wind gusts of more than 75mph (120kmh).
 Mr Baines said it had caused damage to ""countless plants"" as well as the destruction of ""several prized trees"".
@@ -1070,8 +1745,16 @@ Scotland's national collection of Leptospermum scoparium or tea tree, which is h
 It has been estimated it will take about three weeks to clear up the damage and debris from the garden which is scheduled to reopen to the public on 1 March next year.
 Information about BBC links to other news sites
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Scots Pine', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-48,49,Climate change,BBC News,Climate change: Four cheap ways to save energy at home,2021-12-10,https://www.bbc.com/news/science-environment-58913875,"Making your home more energy efficient can be costly and may not be possible if you're renting, or you don't have thousands of pounds stashed away to buy new heat pumps and double glazing.
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Scots Pine', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [Storm Barra, Richard Baines, Galloway, Polylepsis australis, Acacia, Callitris, Leptospermum, Ruby Wax, Donald Trump], 'countries': 0      (Scotland)
+17     (Tasmania)
+18    (Araucaria)
+22        (Logan)
+23     (Scotland)
+24     (Scotland)
+Name: Entities, dtype: object, 'organisations': 9     (the, Royal, Botanic, Garden, Edinburgh)
+28                                       (BBC)
+Name: Entities, dtype: object}"
+48,48,49,Climate change,BBC News,Climate change: Four cheap ways to save energy at home,2021-12-10,https://www.bbc.com/news/science-environment-58913875,"Making your home more energy efficient can be costly and may not be possible if you're renting, or you don't have thousands of pounds stashed away to buy new heat pumps and double glazing.
 But there are some cheap solutions to try to save money. We've looked at where you are likely to be losing the most energy in your home and come up with some simple solutions to help save money on your bills and keep warm this winter.
 Warm air wants to leave your home and will find any nook and cranny to do so. As it does, cold air is sucked in to replace it, causing draughts. It makes your home cold and wastes energy.
 Shutting doors and closing windows may not be enough as any gaps in the frames allow warm air to escape - and that costs money. On this thermal image, the draughts show up as the coldest areas around a front door.
@@ -1099,8 +1782,13 @@ Other ideas include:
 And finally there is the old favourite - repeated by parents down the ages and still on the advice the elderly by Age UK - if you're cold, put on an extra layer - several thin layers of clothing will keep you warmer than one thick layer, as the layers trap warm air between them.
 Finally ,check how much you know about saving energy with our quiz.
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Short presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1
-49,50,California wildfires,BBC News,Father and son arrested on suspicion of starting Caldor fire,2021-12-09,https://www.bbc.com/news/world-us-canada-59599141," A father and son have been arrested on suspicion of starting a massive blaze that tore through northern California earlier this year. 
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['Short presentational grey line', 'A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",1,"{'person': [James Richardson, James, Ruby Wax, Donald Trump], 'countries': Series([], Name: Entities, dtype: object), 'organisations': 3                   (IRT, Surveys)
+6              (Team, GB, Olympic)
+7         (Home, Energy, Scotland)
+8     (the, Energy, Saving, Trust)
+10                           (DIY)
+Name: Entities, dtype: object}"
+49,49,50,California wildfires,BBC News,Father and son arrested on suspicion of starting Caldor fire,2021-12-09,https://www.bbc.com/news/world-us-canada-59599141," A father and son have been arrested on suspicion of starting a massive blaze that tore through northern California earlier this year. 
 But David Scott Smith, 66, and Travis Shane Smith, 32, were poised to dispute accusations of ""reckless arson"" related to the Caldor Fire. 
 They are being held on $1m (Â£760,000) bail and have not yet been charged.
 The Caldor scorched more than 220,000 acres over two months.
@@ -1116,4 +1804,16 @@ In California, about 10% of wildfires are set intentionally, according to the ag
 Climate change increases the risk of the hot, dry weather that is likely to fuel wildfires.
 The world has already warmed by about 1.2C since the industrial era began and temperatures will keep rising unless governments around the world make steep cuts to emissions. 
 Watch Pretty Little Liars: Ravenswood now
-Ruby Wax reflects on her 'car crash' chat with Donald Trump","['A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3
+Ruby Wax reflects on her 'car crash' chat with Donald Trump","['A woman lifting weights', 'Man smiling', 'Police officers restrain a supporter of the human rights group International Memorial outside a court building during a hearing of the Russian Supreme Court to consider the closure of International Memorial in Moscow, Russia December 28, 2021. The placard reads: ""We will live forever""', 'Woman', 'Scientist looking crushed with head in hands', 'Kunal Kamra', 'HÃ©lÃ¨ne Podliasky', 'Illustration of introvert and extrovert', 'Man doing parkour', 'PLL Ravenswood', 'Donald Trump & Ruby Wax']",3,"{'person': [David Scott Smith, Travis Shane Smith, Mark Reichel, Smiths, Mr Reichel, Smiths, Nick Schuler, Mr Schuler, Ruby Wax, Donald Trump], 'countries': 0                       (California)
+11                      (California)
+25    (El, Dorado, County, District)
+32                      (California)
+36                      (California)
+Name: Entities, dtype: object, 'organisations': 7                         (Caldor)
+19         (The, New, York, Times)
+20    (Eldorado, National, Forest)
+27                         (Ramey)
+28                            (DA)
+31                     (Cal, Fire)
+35                           (BBC)
+Name: Entities, dtype: object}"
