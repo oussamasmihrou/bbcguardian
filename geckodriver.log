@@ -3712,7 +3712,8 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1495 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "64916" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileFItOvc"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileFItOvc"
 *** You are running in headless mode.
 1641308516872	Marionette	INFO	Marionette enabled
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
@@ -3725,12 +3726,13 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 1765 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1641309757904	geckodriver	INFO	Listening on 127.0.0.1:55870
-1641309760912	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "55871" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileu9g4XA"
-*** You are running in headless mode.
-1641309761625	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileu9g4XA\\search.json.mozlz4", (void 0)))
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+le exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileu9g4XA\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:55871/devtools/browser/6c16c915-de09-4901-8e91-6fb104b88668
 1641309762922	Marionette	INFO	Listening on port 55881
 1641309762947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -3738,3 +3740,11 @@ JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 58
 1641309771701	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 4715 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 3398 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
