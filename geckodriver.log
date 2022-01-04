@@ -2721,3 +2721,58 @@ cript error: , line 0: uncaught exception: out of memory
 JavaScript error: , line 0: uncaught exception: out of memory
 1641243878374	Marionette	INFO	Marionette enabled
 out of memory: 0x0000000000002010 bytes requested
+1641253194377	geckodriver	INFO	Listening on 127.0.0.1:52336
+1641253197393	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52337" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileHbPXcb"
+*** You are running in headless mode.
+1641253198597	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileHbPXcb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52337/devtools/browser/f114920c-734a-4b6e-b8d3-029c1f7e6279
+1641253200710	Marionette	INFO	Listening on port 52343
+1641253201136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://fundingchoicesmessages.google.com/1641253208260	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozi1641253211094	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 3655 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 1811 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+esmessages.google.com/1641253217684	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozi1641253219310	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 5943 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 3171 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+3227114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozi1641253228888	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 5650 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 1238 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+gle.com/1641253237025	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozi1641253239615	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 34 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 477 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+817?ers=3, line 328: TypeError: __googlefc.initFcKernel is not a function
+1641253249091	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 994 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 730 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileqGGV2E"
+*** You are running in headless mode.
+1641253254943	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileqGGV2E\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52287/devtools/browser/f2ad3975-9f19-4457-97d2-e8ebea644e64
+1641253256915	Marionette	INFO	Listening on port 52297
+1641253256999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://fundingchoicesmessages.google.com/i/4817?ers=3, line 328: TypeError: __googlefc.initFcKernel is not a function
+1641253266728	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 2352 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/U_DPXy_vflqTjVU_YutWJm0axOJE633NQGMGFEhf2s0.js line 1 > eval line 5407 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
