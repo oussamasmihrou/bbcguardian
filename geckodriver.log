@@ -3376,9 +3376,12 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileXqxLGJ"
-1641304962201	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileXqxLGJ\\search.json.mozlz4", (void 0)))
+1641322243058	Marionette	INFO	Stopped listening on port 61016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+_mozprofileXqxLGJ\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:61262/devtools/browser/723a7804-0c16-41d4-bda6-91ebc72428db
 1641304964585	Marionette	INFO	Listening on port 61268
 1641304964901	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -3401,32 +3404,80 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileMfL7T9"
-*** You are running in headless mode.
-1641305184265	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileMfL7T9\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50086/devtools/browser/dab44b8c-54e8-4c3f-8323-bc7c5aec8f96
-1641305186041	Marionette	INFO	Listening on port 50092
-1641305186148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1641305194449	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 7412 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 7442 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileAGTtNE"
-*** You are running in headless mode.
-1641305219765	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileAGTtNE\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50300/devtools/browser/c8b43f64-c4c9-4e34-9923-e362dc082dfe
-1641305221176	Marionette	INFO	Listening on port 50308
-1641305221386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://fundingchoicesmessages.google.com/i/4817?ers=3, line 328: TypeError: __googlefc.initFcKernel is not a function
-1641305229165	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 7666 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 3488 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641322244075	Marionette	INFO	Stopped listening on port 62422
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 39268, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\oussama\AppData\Local\Temp\rust_mozprofileXNq1uK\protections.sqlite
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 3488 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
@@ -3485,11 +3536,10 @@ console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-rofiletSj3kT"
-1641306131973	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofiletSj3kT\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:57106/devtools/browser/7a169fcf-9fb1-45f3-9a3c-6d40ad3bbaf5
-1641306134165	Marionette	INFO	Listening on port 57113
+1641322245607	Marionette	INFO	Stopped listening on port 56744
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+57113
 1641306134474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1641306142040	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 5029 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -3497,12 +3547,15 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilezRrz5j"
-1641306287893	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilezRrz5j\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53861/devtools/browser/e374ccfa-958a-4fc6-a80b-269c3438aa06
-1641306290423	Marionette	INFO	Listening on port 53873
-1641306290526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641322246410	Marionette	INFO	Stopped listening on port 57113
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x59000B,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
 JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
 JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
@@ -3512,9 +3565,9 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilek6jryF"
-1641306358265	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilek6jryF\\search.json.mozlz4", (void 0)))
+1641322247210	Marionette	INFO	Stopped listening on port 53873
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+rofile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilek6jryF\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:64868/devtools/browser/fa19aa43-58b8-4684-b4e0-4c326d472782
 1641306360582	Marionette	INFO	Listening on port 64877
 1641306360688	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -3525,22 +3578,20 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilegRtu0p"
-1641306492219	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilegRtu0p\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:65229/devtools/browser/c762e98e-c3ac-4091-90ac-af25e0a38401
-1641306494591	Marionette	INFO	Listening on port 65237
-1641306494687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1641306502963	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1641322248621	Marionette	INFO	Stopped listening on port 64877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\oussama\AppData\Local\Temp\rust_mozprofilek6jryF\protections.sqlite
+ause document has an invalid readyState of 'interactive'.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 2579 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6105 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilefwObiq"
-1641306945587	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilefwObiq\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:59278/devtools/browser/f2c0264a-c478-4b9f-a216-15f322f9c434
+1641322249276	Marionette	INFO	Stopped listening on port 65237
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+34
 1641306948198	Marionette	INFO	Listening on port 59288
 1641306948511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 6889 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
@@ -3549,9 +3600,9 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilefBYbLL"
-1641306967987	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilefBYbLL\\search.json.mozlz4", (void 0)))
+1641322249977	Marionette	INFO	Stopped listening on port 59288
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+rofile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilefBYbLL\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:63093/devtools/browser/87d3a255-bc42-4646-88f9-334c4c2dbf7e
 1641306970532	Marionette	INFO	Listening on port 63103
 1641306970801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
@@ -3564,24 +3615,23 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJ
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-"C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileVhR8fw"
-1641307126095	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofileVhR8fw\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:63485/devtools/browser/0c5f839c-a4f8-4681-907c-ffa606ad36b2
-1641307128581	Marionette	INFO	Listening on port 63493
-1641307129042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
+1641322253292	Marionette	INFO	Stopped listening on port 63103
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0023,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+r: https://www.bbc.com/news/science-environment-56837908, line 583: TypeError: e.streamData is undefined
 1641307137900	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 3229 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://pagead2.googlesyndication.com/bg/A3sS0H_86Eu8poIaUPJJxUQpsgwPL9Z0aaC7WTcRMFE.js line 1 > eval line 7426 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "52987" "-no-remote" "-profile" "C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilekPRrZ0"
-*** You are running in headless mode.
-1641307447170	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilekPRrZ0\\search.json.mozlz4", (void 0)))
+1641322254573	Marionette	INFO	Stopped listening on port 63493
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+not open the file at C:\\Users\\oussama\\AppData\\Local\\Temp\\rust_mozprofilekPRrZ0\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:52987/devtools/browser/1f6a7aa9-cf2b-4aa5-b9ff-7313ea9f7e29
 1641307448468	Marionette	INFO	Listening on port 52994
 1641307449074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
